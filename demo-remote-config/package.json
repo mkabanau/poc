@@ -1,0 +1,27 @@
+{
+  "name": "demo-remote-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "remote-config": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.3.0",
+    "conf": "^10.1.2",
+    "multibase": "^4.0.6",
+    "open": "^8.4.0",
+    "tweetnacl": "^1.0.3",
+    "uuidv4": "^6.2.13",
+    "ws": "^8.7.0",
+    "y-leveldb": "^0.1.1",
+    "y-websocket": "^1.4.3",
+    "yjs": "^13.5.38"
+  }
+}

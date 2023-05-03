@@ -1,0 +1,126 @@
+[
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "offer",
+            "sdp": "v=0\r\no=- 5554229569676115831 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic: WMS\r\nm=application 41151 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 192.168.1.77\r\na=candidate:3785192433 1 udp 2122260223 192.168.1.77 41151 typ host generation 0 network-id 3 network-cost 50\r\na=candidate:559267639 1 udp 2122202367 ::1 56432 typ host generation 0 network-id 2\r\na=ice-ufrag:/OFF\r\na=ice-pwd:tM9kMDrylC6kmi5NWztqAkIC\r\na=ice-options:trickle\r\na=fingerprint:sha-256 12:5E:C1:19:07:5A:3C:82:FC:4D:93:06:21:BC:2C:28:68:3D:04:33:B8:0C:46:40:85:FE:15:18:56:6D:EE:B0\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"
+        }
+    },
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:3785192433 1 udp 2122260223 192.168.1.77 41151 typ host generation 0 ufrag /OFF network-id 3 network-cost 50",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:559267639 1 udp 2122202367 ::1 56432 typ host generation 0 ufrag /OFF network-id 2",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:1510613869 1 udp 2122129151 127.0.0.1 59984 typ host generation 0 ufrag /OFF network-id 1",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:395119141 1 udp 1686052607 46.216.39.218 41151 typ srflx raddr 192.168.1.77 rport 41151 generation 0 ufrag /OFF network-id 3 network-cost 50",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer2",
+        "payload": {
+            "type": "answer",
+            "sdp": "v=0\r\no=- 7376186513257825198 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic: WMS\r\nm=application 60134 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 192.168.1.77\r\nb=AS:30\r\na=candidate:3785192433 1 udp 2122260223 192.168.1.77 60134 typ host generation 0 network-id 3 network-cost 50\r\na=candidate:559267639 1 udp 2122202367 ::1 35069 typ host generation 0 network-id 2\r\na=candidate:1510613869 1 udp 2122129151 127.0.0.1 58015 typ host generation 0 network-id 1\r\na=ice-ufrag:hM1N\r\na=ice-pwd:qFMk8wfkbkov5cCT8bRB6oy5\r\na=ice-options:trickle\r\na=fingerprint:sha-256 35:0D:3A:C7:FA:E0:7C:C3:3F:A2:08:09:FB:F9:51:77:23:1A:DF:D5:35:53:5D:15:BD:AB:A4:8C:C4:71:51:22\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"
+        }
+    },
+    {
+        "sender": "peer2",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:3785192433 1 udp 2122260223 192.168.1.77 60134 typ host generation 0 ufrag hM1N network-id 3 network-cost 50",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer2",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:559267639 1 udp 2122202367 ::1 35069 typ host generation 0 ufrag hM1N network-id 2",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer2",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:1510613869 1 udp 2122129151 127.0.0.1 58015 typ host generation 0 ufrag hM1N network-id 1",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:2938015489 1 tcp 1518280447 192.168.1.77 39633 typ host tcptype passive generation 0 ufrag /OFF network-id 3 network-cost 50",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:1876313031 1 tcp 1518222591 ::1 58675 typ host tcptype passive generation 0 ufrag /OFF network-id 2",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    },
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "candidate",
+            "candidate": {
+                "candidate": "candidate:344579997 1 tcp 1518149375 127.0.0.1 44811 typ host tcptype passive generation 0 ufrag /OFF network-id 1",
+                "sdpMLineIndex": 0,
+                "sdpMid": "0"
+            }
+        }
+    }
+]

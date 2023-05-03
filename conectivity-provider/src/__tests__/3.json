@@ -1,0 +1,16 @@
+[
+    {
+        "sender": "peer1",
+        "payload": {
+            "type": "offer",
+            "sdp": "v=0\r\no=- 3891440001391972191 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic: WMS\r\nm=application 39218 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 192.168.1.77\r\na=candidate:3785192433 1 udp 2122260223 192.168.1.77 39218 typ host generation 0 network-id 3 network-cost 50\r\na=ice-ufrag:dSLq\r\na=ice-pwd:f9M7Q193JjdA3dHvKF3PQG4A\r\na=ice-options:trickle\r\na=fingerprint:sha-256 39:F3:04:F0:1E:72:1E:3F:74:A9:2B:0F:DB:88:08:AC:DD:B4:CF:40:00:C9:5C:43:FB:3F:B3:1D:13:3E:EC:D4\r\na=setup:actpass\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"
+        }
+    },
+    {
+        "sender": "peer2",
+        "payload": {
+            "type": "answer",
+            "sdp": "v=0\r\no=- 5711510939208801948 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0\r\na=msid-semantic: WMS\r\nm=application 50505 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 192.168.1.77\r\nb=AS:30\r\na=candidate:3785192433 1 udp 2122260223 192.168.1.77 50505 typ host generation 0 network-id 3 network-cost 50\r\na=candidate:559267639 1 udp 2122202367 ::1 60806 typ host generation 0 network-id 2\r\na=candidate:1510613869 1 udp 2122129151 127.0.0.1 50449 typ host generation 0 network-id 1\r\na=ice-ufrag:RHsV\r\na=ice-pwd:7UpxHsth1ILxVnzRSwI291fw\r\na=ice-options:trickle\r\na=fingerprint:sha-256 C7:F0:60:35:7A:FD:D1:2D:E5:DD:5C:91:17:4B:A3:A4:BC:15:A6:C0:67:64:07:3E:7C:0C:58:34:D4:FC:A3:F5\r\na=setup:active\r\na=mid:0\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"
+        }
+    }
+]

@@ -1,0 +1,85 @@
+type Query {
+    workspaces: [Workspace]
+    workspace(id:ID!): Workspace
+    projects(workspaceId:ID!): [Project]
+    project(workspaceId:ID!, projectId:ID!): Project
+    enviroments(workspaceId:ID!, projectId: ID!): [Environment]
+    enviroment(workspaceId:ID!, projectId: ID!, environmentId: ID!): 
+    "return capabilities granted to active party"
+    myCapabilities(): [Capability] 
+    capabilities()
+}
+
+type Mutations {
+    addWorkspace($name: String!):AddWorkspaceResponse
+    addProject():Project
+    addEnvironment():Environment
+    forkEnvironment($envId: ID!):Environment
+    signCapability():Capability
+}
+
+type Workspace {
+    id: ID!
+    name: String!
+    projects: [Project]!
+    controller: String!
+}
+
+interface Response {
+    code: Int! 
+    success: Boolean!
+    message: String!
+}
+type AddWorkspaceResponse implements Response{
+    code: Int! 
+    success: Boolean!
+    message: String!
+    workspace: Workspace
+}
+
+type Project {
+    id: ID!
+    name: String!
+    envs: [Environment]!
+}
+type AddProjectResponse implements Response {
+      code: Int! 
+    success: Boolean!
+    message: String!
+    workspace: Workspace
+    project: Project
+}
+
+type KeyValue {
+    key: String!
+    value: String!
+}
+
+type Environment {
+    id: ID!
+    name: String!
+    parentId: ID
+    map: [KeyValue]
+}
+type AddEnvironmentResponse implements Response {
+    code: Int! 
+    success: Boolean!
+    message: String!
+    project: Project
+    enviroment: Environment
+}
+
+
+type Member {
+    id: ID!
+    did: String!
+}
+
+type Capability {
+    id: ID!
+    memberId: ID!
+    workspaceId: ID!
+    "projects describe which projects this capability grants access to. if null all projects allowed"
+    projects: [ID]
+    proof: String!
+}
