@@ -1,0 +1,41 @@
+{
+  "name": "wallet-sdk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist/",
+      "<rootDir>/node_modules/",
+      "<rootDir>/.history/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "npx tsc"
+  },
+  "author": "maksim",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "@types/uuid": "^8.3.4",
+    "uuid": "^8.3.2",
+    "wallet-api": "file:../wallet-api"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmf=self.webpackChunkmf||[]).push([[423],{423:(e,l,n)=>{n.r(l),n.d(l,{default:()=>r});var t=n(8416),u=n(6974);function r(){return t.createElement("div",null,t.createElement("h2",null,"Courses"),t.createElement(u.j3,null))}}}]);

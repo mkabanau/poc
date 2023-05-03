@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`"algorithm" option matches snapshot for \`gzip\` value ({String}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    4002,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4002,
+    },
+  ],
+]
+`;
+
+exports[`"algorithm" option matches snapshot for \`gzip\` value ({String}): errors 1`] = `[]`;
+
+exports[`"algorithm" option matches snapshot for \`gzip\` value ({String}): warnings 1`] = `[]`;
+
+exports[`"algorithm" option matches snapshot for \`unknown\` value ({String}) 1`] = `"Algorithm "unknown" is not found in "zlib""`;
+
+exports[`"algorithm" option matches snapshot for custom function ({Function}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzed": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    78117,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 78117,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzed": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    672,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 672,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzed": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    194,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 194,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzed": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    16048,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 16048,
+    },
+  ],
+]
+`;
+
+exports[`"algorithm" option matches snapshot for custom function ({Function}): compressionOptions 1`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function ({Function}): compressionOptions 2`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function ({Function}): compressionOptions 3`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function ({Function}): compressionOptions 4`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function ({Function}): errors 1`] = `[]`;
+
+exports[`"algorithm" option matches snapshot for custom function ({Function}): warnings 1`] = `[]`;
+
+exports[`"algorithm" option matches snapshot for custom function with error ({Function}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "size": 194,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "size": 16048,
+    },
+  ],
+]
+`;
+
+exports[`"algorithm" option matches snapshot for custom function with error ({Function}): compressionOptions 1`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function with error ({Function}): compressionOptions 2`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function with error ({Function}): compressionOptions 3`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function with error ({Function}): compressionOptions 4`] = `{}`;
+
+exports[`"algorithm" option matches snapshot for custom function with error ({Function}): errors 1`] = `
+[
+  "Error",
+  "Error",
+  "Error",
+  "Error",
+]
+`;
+
+exports[`"algorithm" option matches snapshot for custom function with error ({Function}): warnings 1`] = `[]`;

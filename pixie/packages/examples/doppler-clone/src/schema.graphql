@@ -1,0 +1,41 @@
+type Query {
+    workspace: Workspace
+    project($name:String):Project
+    env($project:String, $env:String)
+    activity:[Acction]!
+}
+type Mutation {
+    createWorkspace($name:String):Workspace
+    addProject($name:String):Project
+}
+type Subscription {
+}
+
+type Action {
+    id: ID!
+    action: String
+}
+type Workspace {
+    id: ID!
+    name: String!
+    projects:[]!
+}
+type Project {
+    id: ID!
+    name: String!
+    envs:[]!
+}
+
+type KeyValue {
+    key: String
+    value: String
+    name: String
+    description: String
+}
+type Enviroment {
+    id: ID!
+    parent: ID
+    name: String!
+    description: String
+    config: [KeyValue]!
+}

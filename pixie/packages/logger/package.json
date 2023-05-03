@@ -1,0 +1,21 @@
+{
+  "name": "logger",
+  "version": "1.0.0",
+  "description": "logger to hide implementation and allow open telemetry in next versions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files":[
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "author": "maksim",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

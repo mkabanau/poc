@@ -1,0 +1,16 @@
+{
+  "name": "pixie",
+  "version": "1.0.0",
+  "description": "root project for pixie libs",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maksim",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.7",
+    "jest": "^28.1.3",
+    "typescript": "^4.7.4"
+  }
+}

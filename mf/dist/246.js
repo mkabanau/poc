@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmf=self.webpackChunkmf||[]).push([[246],{246:(e,l,n)=>{n.r(l),n.d(l,{default:()=>u});var t=n(416);function u(){return t.createElement("div",null,t.createElement("h2",null,"Home"))}}}]);

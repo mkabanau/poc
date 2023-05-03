@@ -1,0 +1,1 @@
+(()=>{const a=new BroadcastChannel("channel-123");a.postMessage({type:"MSG_ID",msg:"worker"}),a.onmessage=a=>{a.data&&"MSG_ID"===a.data.type&&console.log(a.data.msg)}})();

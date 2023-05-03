@@ -1,0 +1,1 @@
+(self.webpackChunkcompact_graphql=self.webpackChunkcompact_graphql||[]).push([[348,736],{736:()=>{const a=new BroadcastChannel("channel-123");a.postMessage({type:"MSG_ID",msg:"worker"}),a.onmessage=a=>{a.data&&"MSG_ID"===a.data.type&&console.log(a.data.msg)}}},a=>{a(a.s=736)}]);

@@ -1,0 +1,50 @@
+{
+  "name": "compact-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "serve": "http-server dist -p 3001"
+  },
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "<rootDir>/dist/",
+      "<rootDir>/node_modules/",
+      "<rootDir>/.history/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  },
+  "keywords": [],
+  "author": "maksim",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/webpack-loader": "^6.7.0",
+    "apollo-server-core": "^3.10.0",
+    "graphql": "^16.5.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-polyfill-webpack-plugin": "^2.0.0",
+    "webpack": "^5.73.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "y-webrtc": "^10.2.3",
+    "yjs": "^13.5.39"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.5",
+    "http-server": "^14.1.1",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack-cli": "^4.10.0"
+  }
+}

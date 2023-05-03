@@ -1,0 +1,19 @@
+{
+  "name": "web-worker",
+  "version": "1.0.0",
+  "description": "template for web worker",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "author": "maksim",
+  "license": "ISC"
+}

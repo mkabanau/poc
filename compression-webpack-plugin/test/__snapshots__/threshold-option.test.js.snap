@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`"threshold" option matches snapshot for \`0\` value ({Number}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    4002,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4002,
+    },
+  ],
+]
+`;
+
+exports[`"threshold" option matches snapshot for \`0\` value ({Number}): errors 1`] = `[]`;
+
+exports[`"threshold" option matches snapshot for \`0\` value ({Number}): warnings 1`] = `[]`;
+
+exports[`"threshold" option matches snapshot for \`8192\` value ({Number}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "size": 194,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    4002,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4002,
+    },
+  ],
+]
+`;
+
+exports[`"threshold" option matches snapshot for \`8192\` value ({Number}): errors 1`] = `[]`;
+
+exports[`"threshold" option matches snapshot for \`8192\` value ({Number}): warnings 1`] = `[]`;
+
+exports[`"threshold" option should compress all assets excluding assets with "0" bytes original size: assets 1`] = `
+[
+  [
+    "31d6cfe0d16ae931b73c59d7e0c089c0.txt",
+    0,
+    {
+      "immutable": true,
+      "size": 0,
+      "sourceFilename": "empty.txt",
+    },
+  ],
+  [
+    "main.d6f9aecb01ad9f44759c.js",
+    5106,
+    {
+      "chunkhash": "d6f9aecb01ad9f44759c",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.d6f9aecb01ad9f44759c.js.gz",
+      },
+      "size": 5106,
+    },
+  ],
+  [
+    "main.d6f9aecb01ad9f44759c.js.gz",
+    1521,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 1521,
+    },
+  ],
+]
+`;
+
+exports[`"threshold" option should compress all assets excluding assets with "0" bytes original size: errors 1`] = `[]`;
+
+exports[`"threshold" option should compress all assets excluding assets with "0" bytes original size: warnings 1`] = `[]`;
+
+exports[`"threshold" option should compress all assets including assets with "0" bytes original size: assets 1`] = `
+[
+  [
+    "31d6cfe0d16ae931b73c59d7e0c089c0.txt",
+    0,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "31d6cfe0d16ae931b73c59d7e0c089c0.txt.gz",
+      },
+      "size": 0,
+      "sourceFilename": "empty.txt",
+    },
+  ],
+  [
+    "31d6cfe0d16ae931b73c59d7e0c089c0.txt.gz",
+    20,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 20,
+    },
+  ],
+  [
+    "main.d6f9aecb01ad9f44759c.js",
+    5106,
+    {
+      "chunkhash": "d6f9aecb01ad9f44759c",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.d6f9aecb01ad9f44759c.js.gz",
+      },
+      "size": 5106,
+    },
+  ],
+  [
+    "main.d6f9aecb01ad9f44759c.js.gz",
+    1521,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 1521,
+    },
+  ],
+]
+`;
+
+exports[`"threshold" option should compress all assets including assets with "0" bytes original size: errors 1`] = `[]`;
+
+exports[`"threshold" option should compress all assets including assets with "0" bytes original size: warnings 1`] = `[]`;

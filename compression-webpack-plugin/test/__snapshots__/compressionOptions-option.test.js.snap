@@ -1,0 +1,523 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`"compressionOptions" option matches snapshot for custom options ({Object}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    4002,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4002,
+    },
+  ],
+]
+`;
+
+exports[`"compressionOptions" option matches snapshot for custom options ({Object}): errors 1`] = `[]`;
+
+exports[`"compressionOptions" option matches snapshot for custom options ({Object}): warnings 1`] = `[]`;
+
+exports[`"compressionOptions" option matches snapshot without values: assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    4002,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4002,
+    },
+  ],
+]
+`;
+
+exports[`"compressionOptions" option matches snapshot without values: errors 1`] = `[]`;
+
+exports[`"compressionOptions" option matches snapshot without values: warnings 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for brotli: assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "brotliCompressed": "23fc1d3ac606d117e05a140e0de79806.svg.br",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.br",
+    363,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 363,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "brotliCompressed": "async.async.55e6e9a872bcc7d4b226.js.br",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.br",
+    123,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 123,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "brotliCompressed": "main.65eb86fafc0ecd0e4fc3.js.br",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.br",
+    3505,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 3505,
+    },
+  ],
+]
+`;
+
+exports[`"compressionOptions" option set default compression level to maximum for brotli: errors 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for brotli: warnings 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for deflate: assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "deflateed": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    381,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 381,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "deflateed": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    122,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 122,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "deflateed": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    3990,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 3990,
+    },
+  ],
+]
+`;
+
+exports[`"compressionOptions" option set default compression level to maximum for deflate: errors 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for deflate: warnings 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for deflateRaw: assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "deflateRawed": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    375,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 375,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "deflateRawed": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    116,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 116,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "deflateRawed": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    3984,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 3984,
+    },
+  ],
+]
+`;
+
+exports[`"compressionOptions" option set default compression level to maximum for deflateRaw: errors 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for deflateRaw: warnings 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for gzip: assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js",
+    194,
+    {
+      "chunkhash": "55e6e9a872bcc7d4b226",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "async.async.55e6e9a872bcc7d4b226.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.55e6e9a872bcc7d4b226.js.gz",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js",
+    16048,
+    {
+      "chunkhash": "65eb86fafc0ecd0e4fc3",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.65eb86fafc0ecd0e4fc3.js.gz",
+      },
+      "size": 16048,
+    },
+  ],
+  [
+    "main.65eb86fafc0ecd0e4fc3.js.gz",
+    4002,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4002,
+    },
+  ],
+]
+`;
+
+exports[`"compressionOptions" option set default compression level to maximum for gzip: errors 1`] = `[]`;
+
+exports[`"compressionOptions" option set default compression level to maximum for gzip: warnings 1`] = `[]`;

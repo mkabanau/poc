@@ -1,0 +1,22 @@
+{
+  "name": "builder",
+  "version": "1.0.0",
+  "description": "builder interface for wallet implementation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files":[
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "author": "maksim",
+  "license": "ISC",
+  "dependencies": {
+    "wallet-api": "file:../wallet-api"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

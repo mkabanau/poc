@@ -1,0 +1,468 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`"filename" option matches snapshot for \`[name][ext].super-compressed.gz[query]\` value ({String}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.super-compressed.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.super-compressed.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.super-compressed.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.super-compressed.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "async.async.js?ver=611cf1926c28415ef007",
+    194,
+    {
+      "fullhash": "611cf1926c28415ef007",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "async.async.super-compressed.js.gz?ver=611cf1926c28415ef007",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.super-compressed.js.gz?ver=611cf1926c28415ef007",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "main.js?var=611cf1926c28415ef007",
+    16209,
+    {
+      "fullhash": "611cf1926c28415ef007",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.super-compressed.js.gz?var=611cf1926c28415ef007",
+      },
+      "size": 16209,
+    },
+  ],
+  [
+    "main.super-compressed.js.gz?var=611cf1926c28415ef007",
+    4028,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4028,
+    },
+  ],
+]
+`;
+
+exports[`"filename" option matches snapshot for \`[name][ext].super-compressed.gz[query]\` value ({String}): errors 1`] = `[]`;
+
+exports[`"filename" option matches snapshot for \`[name][ext].super-compressed.gz[query]\` value ({String}): warnings 1`] = `[]`;
+
+exports[`"filename" option matches snapshot for \`[path][base].super-compressed.gz[query][fragment]\` value ({String}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.super-compressed.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.super-compressed.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.super-compressed.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.super-compressed.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "assets/js/async.async.js.super-compressed.gz?ver=566a803494f8ccb50e64#hash",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "assets/js/async.async.js?ver=566a803494f8ccb50e64#hash",
+    194,
+    {
+      "fullhash": "566a803494f8ccb50e64",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "assets/js/async.async.js.super-compressed.gz?ver=566a803494f8ccb50e64#hash",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "assets/js/main.js.super-compressed.gz?var=566a803494f8ccb50e64#hash",
+    4047,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4047,
+    },
+  ],
+  [
+    "assets/js/main.js?var=566a803494f8ccb50e64#hash",
+    16235,
+    {
+      "fullhash": "566a803494f8ccb50e64",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "assets/js/main.js.super-compressed.gz?var=566a803494f8ccb50e64#hash",
+      },
+      "size": 16235,
+    },
+  ],
+]
+`;
+
+exports[`"filename" option matches snapshot for \`[path][base].super-compressed.gz[query][fragment]\` value ({String}): errors 1`] = `[]`;
+
+exports[`"filename" option matches snapshot for \`[path][base].super-compressed.gz[query][fragment]\` value ({String}): warnings 1`] = `[]`;
+
+exports[`"filename" option matches snapshot for custom function ({Function}) and custom algorithm ({Function}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "compression-function-5f27f917e58a6cfd45a9fb0dbfb129f9": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    78117,
+    {
+      "compressed": true,
+      "size": 78117,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "compression-function-5f27f917e58a6cfd45a9fb0dbfb129f9": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    672,
+    {
+      "compressed": true,
+      "size": 672,
+    },
+  ],
+  [
+    "async.async.js.gz?ver=bdcf41c8bb0107a0cfb0",
+    194,
+    {
+      "compressed": true,
+      "size": 194,
+    },
+  ],
+  [
+    "async.async.js?ver=bdcf41c8bb0107a0cfb0#hash",
+    194,
+    {
+      "fullhash": "bdcf41c8bb0107a0cfb0",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "compression-function-5f27f917e58a6cfd45a9fb0dbfb129f9": "async.async.js.gz?ver=bdcf41c8bb0107a0cfb0",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "main.js.gz?var=bdcf41c8bb0107a0cfb0",
+    16214,
+    {
+      "compressed": true,
+      "size": 16214,
+    },
+  ],
+  [
+    "main.js?var=bdcf41c8bb0107a0cfb0#hash",
+    16214,
+    {
+      "fullhash": "bdcf41c8bb0107a0cfb0",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "compression-function-5f27f917e58a6cfd45a9fb0dbfb129f9": "main.js.gz?var=bdcf41c8bb0107a0cfb0",
+      },
+      "size": 16214,
+    },
+  ],
+]
+`;
+
+exports[`"filename" option matches snapshot for custom function ({Function}) and custom algorithm ({Function}): errors 1`] = `[]`;
+
+exports[`"filename" option matches snapshot for custom function ({Function}) and custom algorithm ({Function}): warnings 1`] = `[]`;
+
+exports[`"filename" option matches snapshot for custom function ({Function}): assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "size": 393,
+    },
+  ],
+  [
+    "async.async.js.gz?ver=bdcf41c8bb0107a0cfb0",
+    134,
+    {
+      "compressed": true,
+      "size": 134,
+    },
+  ],
+  [
+    "async.async.js?ver=bdcf41c8bb0107a0cfb0#hash",
+    194,
+    {
+      "fullhash": "bdcf41c8bb0107a0cfb0",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "async.async.js.gz?ver=bdcf41c8bb0107a0cfb0",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "main.js.gz?var=bdcf41c8bb0107a0cfb0",
+    4032,
+    {
+      "compressed": true,
+      "size": 4032,
+    },
+  ],
+  [
+    "main.js?var=bdcf41c8bb0107a0cfb0#hash",
+    16214,
+    {
+      "fullhash": "bdcf41c8bb0107a0cfb0",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "main.js.gz?var=bdcf41c8bb0107a0cfb0",
+      },
+      "size": 16214,
+    },
+  ],
+]
+`;
+
+exports[`"filename" option matches snapshot for custom function ({Function}): errors 1`] = `[]`;
+
+exports[`"filename" option matches snapshot for custom function ({Function}): warnings 1`] = `[]`;
+
+exports[`"filename" option show work: assets 1`] = `
+[
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png",
+    78117,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "09a1a1112c577c2794359715edfcb5ac.png.gz",
+      },
+      "size": 78117,
+      "sourceFilename": "icon.png",
+    },
+  ],
+  [
+    "09a1a1112c577c2794359715edfcb5ac.png.gz",
+    73160,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 73160,
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg",
+    672,
+    {
+      "immutable": true,
+      "related": {
+        "gzipped": "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+      },
+      "size": 672,
+      "sourceFilename": "icon.svg",
+    },
+  ],
+  [
+    "23fc1d3ac606d117e05a140e0de79806.svg.gz",
+    393,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 393,
+    },
+  ],
+  [
+    "assets/scripts/async.async.js.gz",
+    134,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 134,
+    },
+  ],
+  [
+    "assets/scripts/async.async.js?ver=28e717bda8b7cbf1ad4b#hash",
+    194,
+    {
+      "fullhash": "28e717bda8b7cbf1ad4b",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "assets/scripts/async.async.js.gz",
+      },
+      "size": 194,
+    },
+  ],
+  [
+    "assets/scripts/main.js.gz",
+    4047,
+    {
+      "compressed": true,
+      "immutable": true,
+      "size": 4047,
+    },
+  ],
+  [
+    "assets/scripts/main.js?var=28e717bda8b7cbf1ad4b#hash",
+    16240,
+    {
+      "fullhash": "28e717bda8b7cbf1ad4b",
+      "immutable": true,
+      "javascriptModule": false,
+      "related": {
+        "gzipped": "assets/scripts/main.js.gz",
+      },
+      "size": 16240,
+    },
+  ],
+]
+`;
+
+exports[`"filename" option show work: errors 1`] = `[]`;
+
+exports[`"filename" option show work: warnings 1`] = `[]`;
